@@ -6,6 +6,7 @@ class PeopleModel extends BaseModel
 {
     protected $table = 'ishift_people';
 
+	// validation data
     protected $validations = array(
         'surname' => array(
             'min' => 1,
